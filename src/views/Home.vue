@@ -1,6 +1,6 @@
 <template>
 <div class="home">
-   <el-button type="primary" @click="test">home</el-button>
+   <el-button type="primary">home</el-button>
 </div>
 </template>
 
