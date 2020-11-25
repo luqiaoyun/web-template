@@ -4,11 +4,10 @@ import router from './router'
 import store from './store'
 import axios from './axios'
 import './assets/style/reset.scss'
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
+import { button } from 'element-ui'
 Vue.config.productionTip = false
 Vue.prototype.$axios = axios
-Vue.use(ElementUI)
+Vue.use(button)
 
 new Vue({
   router,

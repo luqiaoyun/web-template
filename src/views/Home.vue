@@ -1,13 +1,20 @@
 <template>
-  <div class="home">
-    home
-  </div>
+<div class="home">
+   <el-button type="primary" @click="test">home</el-button>
+</div>
 </template>
 
 <script>
 export default {
-  name: 'Home',
+  name: 'home',
+  data () {
+    return {}
+  },
   components: {
+  },
+  mounted () {
+  },
+  methods: {
   }
 }
 </script>

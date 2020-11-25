@@ -4,6 +4,7 @@ console.log(name)
 module.exports = {
   outputDir: name,
   publicPath: '/' + name,
+  productionSourceMap: false,
   devServer: {
     proxy: {
       '/api': {
